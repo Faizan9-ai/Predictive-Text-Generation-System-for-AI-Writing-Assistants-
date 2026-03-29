@@ -2,34 +2,108 @@
 
 This project uses **Natural Language Processing (NLP)** and **Deep Learning (LSTM)** to predict the next word in a given sentence.
 
-Live demo link deployed on Streamlit - https://nextline.streamlit.app/
+### Live demo link deployed on Streamlit - https://nextline.streamlit.app/
 
 Dataset - https://www.kaggle.com/datasets/ronikdedhia/next-word-prediction
 
 ---
 
 ##  Project Overview
-This project focuses on building a Next Word Prediction system — a fundamental Natural Language Processing (NLP) task used in predictive text, chatbots, and typing assistants.
+# ✍️ Predictive Text Generation System using NLP & LSTM
 
-The goal is to train a deep learning model using Long Short-Term Memory (LSTM) networks to predict the most probable next word in a given sentence, based on the context of previous words.
-
-A text corpus (The Adventures of Sherlock Holmes by Arthur Conan Doyle) is used as training data. The text is cleaned, tokenized, and converted into numerical sequences that the model can learn from. The model is trained to understand language patterns and dependencies between words.
-
-The system is deployed as an interactive Streamlit web app, where users can enter any phrase and the model predicts the next few words intelligently.
-
-🧩 Key Features
-
-### 🧩 Technologies Used
-- Python
-- TensorFlow / Keras
-- Streamlit
-- NumPy
-- Joblib
+## 🚀 Live Demo
+- 🌐 Streamlit App: https://nextline.streamlit.app/
 
 ---
 
-## ⚙️ How It Works
-1. The dataset is tokenized and converted into sequences.
-2. An **LSTM** model learns context from previous words.
-3. The Streamlit app lets users type a phrase and generates the next words.
+## 📌 Overview
+This project builds an intelligent **Next Word Prediction System** using Natural Language Processing (NLP) and Deep Learning (LSTM networks).
+
+The system predicts the most probable next word in a sentence, forming the foundation for applications such as:
+- Smart typing assistants  
+- Chatbots  
+- Text generation systems  
+- AI writing tools  
+
+---
+
+## 🎯 Problem Statement
+Modern applications require intelligent text prediction to enhance user experience. However, building an accurate next-word prediction system involves:
+
+- Understanding sequential context in text  
+- Capturing long-term dependencies  
+- Handling vocabulary efficiently  
+
+Traditional models struggle with capturing contextual relationships in sequences.
+
+---
+
+## 💡 Solution
+This project leverages **LSTM (Long Short-Term Memory)** networks to model sequential dependencies in text data and predict the next word based on previous context.
+
+The pipeline includes:
+- Text preprocessing and tokenization  
+- Sequence generation  
+- LSTM-based deep learning model  
+- Real-time prediction via web interface  
+
+---
+
+## 🧠 Model Architecture
+
+The system uses an LSTM-based neural network:
+
+- Embedding Layer → Converts words into dense vectors  
+- LSTM Layers → Capture sequential dependencies  
+- Dense Layer → Predicts probability distribution of next word  
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python**
+- **TensorFlow / Keras**
+- **Natural Language Processing (NLP)**
+- **Streamlit (Deployment)**
+- **NumPy / Pandas**
+
+---
+
+## 📊 Dataset
+
+- Dataset Source: Sherlock Holmes text corpus  
+- 📎 https://www.kaggle.com/datasets/ronikdedhia/next-word-prediction  
+
+The dataset is preprocessed by:
+- Lowercasing text  
+- Removing punctuation  
+- Tokenizing words  
+- Creating input sequences  
+
+---
+
+## 🔄 Workflow
+
+1. Data Collection  
+2. Text Preprocessing  
+3. Tokenization  
+4. Sequence Creation  
+5. Model Training (LSTM)  
+6. Model Evaluation  
+7. Deployment using Streamlit  
+
+---
+
+## 📈 Results
+
+- Successfully predicts context-aware next words  
+- Learns sequential patterns in text data  
+- Demonstrates strong performance on structured corpus  
+
+
+
+---
+
+
+
 
